@@ -50,7 +50,13 @@ public class GeneticMain {
 
         int iteraciones = algoritmoGenetico.simularAlgoritmoGenetico(20,40,1000000, tasaMutacion, tamanioPoblacion, opcionReemplazo);
 
-        System.out.println("Iteraciones necesarias: " + iteraciones);
+        if(iteraciones == -1){
+            System.out.println("El algoritmo ha realizado un millón de iteraciones por lo que ha finalizado sin éxito :(");
+        }
+        else{
+            System.out.println("Iteraciones necesarias: " + iteraciones);
+        }
+
         System.out.println("Cantidad de reemplazos realizados: " + algoritmoGenetico.cantReemplazos);
     }
 }

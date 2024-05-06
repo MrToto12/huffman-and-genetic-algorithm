@@ -94,7 +94,7 @@ public class AlgoritmoGenetico {
                 }
             }
         }
-        return 0;
+        return -1;
     }
 
     // Método auxiliar para imprimir una cadena
