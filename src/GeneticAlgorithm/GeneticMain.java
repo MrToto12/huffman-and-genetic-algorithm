@@ -1,7 +1,9 @@
+package GeneticAlgorithm;
+
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class GeneticMain {
+    public static void start() {
         Scanner scanner = new Scanner(System.in);
         double tasaMutacion = 0;
         int tamanioPoblacion = 0;

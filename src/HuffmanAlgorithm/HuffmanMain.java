@@ -1,8 +1,9 @@
+package HuffmanAlgorithm;
 
 import java.util.Scanner;
 
-class Main {
-    public static void main(String[] args) {
+public class HuffmanMain {
+    public static void start() {
         Scanner scanner = new Scanner(System.in);
 
         //Ejemplo

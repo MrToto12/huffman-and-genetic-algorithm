@@ -1,8 +1,9 @@
+package HuffmanAlgorithm;
+
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
 public class HuffmanAlgorithm {
-
 
     public static String huffmanEncode(String input) {
         // Paso 1: Calcular la frecuencia de cada carácter en la cadena de entrada
